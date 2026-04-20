@@ -58,7 +58,7 @@ font-size: larger;
 }
 
 .foto img:hover{
-transform: scale(1.50) rotate(2deg);
+transform: scale(2.00) rotate(1deg);
 }
 
 .legenda {
@@ -95,12 +95,11 @@ nav a:hover {
 }
 
 .subtitulo {
-    color: #ffe313;
+    color: #6b2d04;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    float: inline-start;
     background-color: #d5701d;
+    font-size: x-large;
     padding: 5px;
-    font-size: larger;
 }
 
 .titulodagaleria {
@@ -109,4 +108,8 @@ nav a:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #471903;
     background: #d47019;
+}
+
+.subtitulodagaleria {
+    text-align: center;
 }

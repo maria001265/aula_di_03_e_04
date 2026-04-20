@@ -4,29 +4,31 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #792b07;
     padding: 20px;
 }
 
 header{
-    background-color: #c0c0c0c0;
-    color: #ffff;
+    background-color: #d5701d;
+    color: #5b210a;
     text-align: center;
 }
 
 nav {
-    color: blue;
+    color: rgb(255, 166, 0);
     text-decoration: none;
     padding: 4px;
 }
 
 .bloco {
-background-color: #cccc;
-color: black;
-border: 1px, dotted #a3a3a3;
+background-color: #ffc062cc;
+color: rgb(55, 8, 0);
+font-style: oblique;
+border: 1px, dotted #993507;
 margin-bottom: 16px;
-border-top: 2px solid #d8dd;
+border-top: 2px solid rgba(139, 58, 4, 0.867);
+font-size: larger;
 }
 
 #galeria {
@@ -38,10 +40,10 @@ border-top: 2px solid #d8dd;
 }
 
 .foto {
-    background: #ffffff;
+    background: #ffce85;
     padding: 12px 12px 20px 12px;
-    border: 1px solid #dddddddd;
-    box-shadow: 0 4px 10px #000000;
+    border: 1px solid #af5206dd;
+    box-shadow: 0 4px 10px #4b1700;
     width: 220px ;
     text-align: center;
     border-radius: 4px;
@@ -65,15 +67,46 @@ transform: scale(1.50) rotate(2deg);
 }
 
 nav a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 213, 0);
     text-decoration: none;
     padding: 4px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: #cccc;
-    border-bottom-color: #d8d;
+    background-color: #d76c2ecc;
+    border-bottom-color: rgb(132, 48, 12);
 }
 
 nav a:hover { 
-    color: red;
+    color: rgb(167, 52, 7);
+}
+
+.fonte {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #762a04;
+    background-color: #da873a;
+    font-size: xx-large;
+    padding: 10px;
+
+}
+
+.corzinhaproscopyright {
+
+    color:rgb(255, 166, 0);
+}
+
+.subtitulo {
+    color: #ffe313;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: inline-start;
+    background-color: #d5701d;
+    padding: 5px;
+    font-size: larger;
+}
+
+.titulodagaleria {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #471903;
+    background: #d47019;
 }
